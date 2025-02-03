@@ -27,3 +27,4 @@ set(SOURCE_FILES
 
 # Crear el ejecutable
 add_executable(MORA ${SOURCE_FILES})
+target_include_directories(MORA PRIVATE ${CMAKE_SOURCE_DIR}/src)
